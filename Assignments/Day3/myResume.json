@@ -1,0 +1,84 @@
+{
+    "basics": {
+      "name": "Sanjeevkumar Managutti",
+      "email": "sanjeevmanagutti@gmail.com",
+      "phone": "(+91) 9663-111-463",
+      "degree": "Electrical and Electronics Engineering",
+      "location": {
+        "address": "Lig 113/1 NEW KHB colony, near Siddeshwar Temple,Kanbargi",
+        "postalCode": "590015",
+        "city": "Belagavi",
+        "countryCode": "India",
+        "region": "Karnataka"
+      },
+      "profiles": [
+        {
+          "network": "Linkdin",
+          "username": "Sanjeevkumar Managutti",
+          "url": "linkedin.com/in/sanjeevkumar-managutti-34187a207"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Amazon",
+        "position": "Machine Learning Associate |",
+        "website": "amazon.com",
+        "startDate": "05-10-2020",
+        "Employee Status":"presrent organization"
+        
+      },
+      {
+        "company": "HTC globalServices",
+        "position": "Programmer Analyist |",
+        "website": "Htcindia.in",
+        "startDate": "17-03-2020",
+        "endDate": "24-06-2020"
+      }
+    ],
+      
+    "education": [
+      {
+        "institution": "Angadi Institute of Techonology and Managment",
+        "area": "Electrical and Electronics Engineering",
+        "studyType": "Full-Time",
+        "startYear": "2014",
+        "endYear": "2018",
+        "gpa": "67.58"
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "programing",
+        "level": "modrate",
+        "keywords": [
+          "java, javaScript, Python"
+        ]
+      },
+      {
+        "name": "DataMagagment",
+        "level": "modrate",
+        "keywords": [
+          "Excel, Mysql"
+        ]
+      }
+
+    ],
+    "languages": [
+      {
+        "language1": "Kannnada",
+        "language2": "English",
+        "language3": "Hindi",
+        "language4": "Telagu",
+        "language5": "Tamil"
+      }
+    ],
+    "interests": [
+      {
+        "1": "Photography",
+        "2": "Drawing/Skectching",
+        "3":"Cooking"
+      }
+    ]
+  }
