@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="day1.js">
+    <h1>Assignment-1</h1>
+    <h3>1. Difference between HTTP/2 and HTTP/1.1</h3>
+        <ol>
+            <li><em><b>Binary protocols</b></em> – Binary protocols consume less bandwidth, are more efficiently parsed and are less error-prone than the textual protocols used by HTTP/1.1. Additionally, they can better handle elements such as whitespace, capitalization and line endings.</li>
+            <br>
+            <li><em><b>Multiplexing</b></em> – HTTP/2 is multiplexed, i.e., it can initiate multiple requests in parallel over a single TCP connection. As a result, web pages containing several elements are delivered over one TCP connection. These capabilities solve the head-of-line blocking problem in HTTP/1.1, in which a packet at the front of the line blocks others from being transmitted.</li>
+            <br>
+            <li><em><b>Header compression</b></em> – HTTP/2 uses header compression to reduce the overhead caused by TCP’s slow   start mechanism.</li>        
+            <br>
+            <li><em><b>Server push</b></em> – HTTP/2 servers push likely-to-be-used resources into a browser’s cache, even before they’re requested. This allows browsers to display content without additional request cycles.</li>
+            <br>
+            <li><em><b>Increased security</b></em> – Web browsers only support HTTP/2 via encrypted connections, increasing user and application security.</li>
+        </ol>
+        <br>
+        <h3>2. Object in javaScript and its internal representataion </h3>
+        <p style="text-indent :5em;">
+            Every thing in javaScriptis an object,exept Primitive datas. objects are nothing but Key:value pairs. where key can be used and an index to retrive the value. 
+            <p style="text-indent :5em;">
+            In other words A JavaScript object is a collection of named values.The named values, in JavaScript objects, are called properties.
+        </p style="text-indent :5em;">
+        <p>There are different ways to create new objects:
+            <ol>
+                <li>Create a single object, using an object literal. <br> Ex: const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};</li>
+                <li>Create a single object, with the keyword new. <br> Ex: const person = new Object(); </li>
+                <li>Define an object constructor, and then create objects of the constructed type. <br> Ex: const myFather = new Person("John", "Doe", 50, "blue"); </li>
+                <li>Create an object using Object.create() <br> Ex: const me = Object.create(person); .</li>
+            </ol>
+        </p>
+        </p>
+        <h4>Internal Representation of object</h4>
+        <p>To understand this rather abstract definition, let us look at an example of a JavaScript Object :
+<div>
+    <p>
+        let school = { <br>
+            name : “Vivekananda School”,<br>
+            location : “Delhi”,<br>
+            established : “1971” <br>
+            }   <br>
+    </p>
+</div>
+           
+            In the above example “name”, “location”, “established” are all “keys” and “Vivekananda School”, “Delhi” and 1971 are values of these keys respectively.
+            
+            Each of these keys is referred to as properties of the object</p>
+</body>
+</html>
