@@ -1,0 +1,116 @@
+// Animal class
+class Animal{
+  constructor(name,speed){
+    this.speed=speed;
+    this.name=name;
+  }
+  run(){
+    console.log(`${this.name} runs with speed of ${this.speed}`);
+  }
+  stop(){
+    console.log(` ${this.name} stands at possision 0`);
+  }
+}
+var animalObject=new Animal("Cat","100kmps");
+animalObject.run();
+animalObject.stop();
+
+//claculator class
+class Calci{
+  constructor(...Arr){
+    this.Arr=Arr;
+  }
+  getAvrage(){
+    let N=(this.Arr.length);
+    
+    let sum=0,avg=0;
+    if (N){
+      for(var i=0;i<N;i++){
+        sum=sum+parseInt(this.Arr[i]);
+    
+      }
+       avg=(sum/N);
+      return avg;
+    }
+    else{
+      return 0;
+    }
+  }
+  
+}
+var calObject=new Calci(1,2,3,4);
+console.log(calObject.getAvrage());
+
+//min of Arr
+class Calci{
+ 
+  getAvrage(...Arr){
+    let N=(Arr.length);
+    
+    let min=Arr[0];
+    if (N){
+      for(let i in Arr){
+        if(Arr[i]<min){
+          min=Arr[i];
+        }
+    
+      }
+      return min;
+    }
+    else{
+      return 0;
+    }
+  }
+  
+}
+var calObject=new Calci();
+console.log(calObject.getAvrage(1,2,3,4));
+
+// checking equality of calObject
+class Car{
+ constructor(name,module){
+    this.name=name;
+    this.module=module;
+  }
+  getData(){
+    console.log(`${this.name} having module ${this.module}`);
+  }
+}
+
+let obj1=new Car("Maruthi","Eirtiga");
+let obj2=new Car("Mahindra","XUV-700");
+let obj3=obj1;
+console.log(obj1===obj2);
+console.log(obj3===obj1);
+
+//
+
+class Man{
+  constructor(name){
+    this.name=name;
+  } 
+}
+class Employee extends Man{
+  constructor(name,possition){
+    super(name);
+    this.possition=possition;
+    
+  }
+  getData(){
+    console.log(this.name,this.possition);
+  }
+}
+
+let obj=new Employee("Sanjeev","Developer");
+obj.getData();
+
+//
+/*let Arr=[1,2,3,4,5];
+console.log( Arr.filter(function(x) {
+  if (x % 2 === 0 || x === 0) {
+    return x;
+  }
+}))*/
+let Arr=[2,3,5,7,11];
+console.log(Arr.slice(0,3));
+console.log(Arr.slice(2,5));
