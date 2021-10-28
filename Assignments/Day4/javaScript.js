@@ -7,7 +7,10 @@ xhr.onload = function () {
     //Code-Display required data.
     console.log(t);
     for (const key in t) {
-        //question2 answer:
+      //question1 answer:
+      console.log(JSON.stringify(t) === JSON.stringify(t));  
+      
+      //question2 answer:
 
         //console.log(t[key].flag);
 
