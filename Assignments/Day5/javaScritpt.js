@@ -35,8 +35,31 @@ Output:
 */
 
 //2.	Convert all the strings to title caps in a string array
-
-
+//i. Anonymous Function.
+/*var str="sanjeev";
+let MyCapc=function(str){
+var str1=str.split("");
+var myCapsStr="";
+for(var i in str1){
+  myCapsStr=myCapsStr+(str1[i].toUpperCase());
+}
+console.log(myCapsStr);
+};
+MyCapc(str);
+output: SANJEEV
+*/
+/*ii. IIFE
+var str="sanjeev";
+(function(str){
+var str1=str.split("");
+var myCapsStr="";
+for(var i in str1){
+  myCapsStr=myCapsStr+(str1[i].toUpperCase());
+}
+console.log(myCapsStr);
+})(str);
+output: SANJEEV
+*/
 
 //3.	Sum of all numbers in an array
 // i. Anonymous Function.
@@ -72,7 +95,7 @@ output:
 
 //d. Return all the prime numbers in an array
  //i. Anonymous Function.
-/*const array1 = [2, 5, 6, 9, 11];
+/*const array = [2, 5, 6, 9, 11];
 let fun=function(array){
     var array1=[];
 for (const element of array) {
@@ -86,13 +109,13 @@ for (const element of array) {
         }
     }    
 };
-let result=fun(array1);
+let result=fun(array);
 console.log(result);
 output:
 2 5 11
 
 IIFE.
-const array1 = [2, 5, 6, 9, 11, 13];
+const array = [2, 5, 6, 9, 11, 13];
 let fun=(function(array){
     var array1=[];
 for (const element of array) {
@@ -106,13 +129,52 @@ for (const element of array) {
     }
 }
     return array1;
-})(array1);
+})(array);
 console.log(fun.join(" "));
 output:
 2 5 11 13
 */
 //Return all the palindromes in an array
+//i. Anonymous Function.
+/*let palindrome= function(arr){
+    for(const num of arr){
+       
+        for(var n=num,rem=0,final=0;n>0;n=parseInt(n/10)){
+                rem=n%10;
+                final=final*10+rem;
+            }
+        if(num==final){
+                console.log(num);
+            }
+    }
+    }
+    let arr=[121,545,786];
+    palindrome(arr);
+    Output:
+    121
+    545
+//ii. IIFE
+let arr1=[121,545,786];
+( function(arr1){
+for(const num of arr1){
+   
+    for(var n=num,rem=0,final=0;n>0;n=parseInt(n/10)){
+            rem=n%10;
+            final=final*10+rem;
+        }
+    if(num==final){
+            console.log(num);
+        }
+}
+})(arr1);
+Output:
+    121
+    545
+    */
+
 
 //Return median of two sorted arrays of same size
+
 //Remove duplicates from an array
+
 //Rotate an array by k times
