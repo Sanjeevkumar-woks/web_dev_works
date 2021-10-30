@@ -7,21 +7,23 @@ a) Write a constructor for the class Movie, which takes a String representing th
 b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
 c) Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full.
 d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
-ANS:
+ANS:*/
 class Movie{
   constructor(titel,studio,rating="PG"){
     this.title=titel;
     this.studio=studio;
     this.rating=rating;
   }
-  getPG(){
-    return this.rating;
+  getPG(arr){
+    return arr.filter(x=> x.rating=="PG");
   }
 }
-let obj= new Movie("Casino Royale","Casino Royale");
-console.log(obj.getPG());
-
-// Circle Class
+let obj= new Movie("abc","def","PG­13");
+//console.log(obj.getPG());
+var temp=[new Movie("ABC","DEF","PG"),new Movie("123","456","PG3")];
+console.log(obj.getPG(temp));
+/*
+// Circle Classs
 CIRCLE-CLASS
 ANS:
 class Circle{

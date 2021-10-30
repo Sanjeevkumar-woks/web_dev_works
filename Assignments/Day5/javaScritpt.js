@@ -173,8 +173,27 @@ Output:
     */
 
 
-//Return median of two sorted arrays of same size
+    //Return median of two sorted arrays of same size
 
 //Remove duplicates from an array
-
+/*
+const unique=(value,index,self)=> self.indexOf(value)===index;
+let mixedArray=[1,2,3,3,4,7,2,6];
+let myUniqueArray=mixedArray.filter(unique);
+console.log(myUniqueArray);
+//output: [1,2,3,4,6,7]
+*/
 //Rotate an array by k times
+/*
+function rotateArray(A, K) {
+    if (!A.length) return A;
+    let index = -1;
+    while (++index < K) {
+        A.unshift(A.pop());
+    }
+    return A;
+}
+ let res=rotateArray([3, 8, 9, 7, 6], 3);
+ console.log(res);
+ //output:[ 9, 7, 6, 3, 8 ]
+ */
