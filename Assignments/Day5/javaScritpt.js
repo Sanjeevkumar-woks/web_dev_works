@@ -172,8 +172,7 @@ Output:
     545
     */
 
-
-    //Return median of two sorted arrays of same size
+//Return median of two sorted arrays of same size
 
 //Remove duplicates from an array
 /*

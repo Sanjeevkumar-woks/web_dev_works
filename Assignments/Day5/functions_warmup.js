@@ -323,13 +323,13 @@ Write a function called “getLastElement”.
 Given an array, “getLastElement” returns the last element of the given array. If the given array has a length of 0, it should return ‘-1’.
 Input:
 getLastElement([1, 2, 3, 4]);
-Output:
-4
+
 function getLastElement(array){
-return array.length? array[array.length]:0;
+return array.length? array[array.length-1]:0;
 }
-let res=getLastElement([]);
+let res=getLastElement([1, 2, 3, 4]);
 console.log(res);
+//Output: 4
 
 Problem:
 Write a function called “getProperty”.
@@ -345,11 +345,14 @@ Output:
 value
 NA
 var obj = {
- mykey: “value”
+ mykey: "value"
 };
 function getProperty(obj, key) {
- // your code here
+ return obj[key];
 }
+let res=getProperty(obj, "mykey");
+console.log(res);
+
 
 Problem:
 Write a function called “addProperty”.
@@ -422,7 +425,6 @@ Problem:
 Find the maximum number in an array of numbers
 function findMax(ar)
 {
-// your code here
 }
 var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
 var max = findMax(ar);

@@ -1,10 +1,6 @@
-var object = { 'a': 1 };
-var other = { 'a': 1 };
- 
-var r=_.isEqual(object, other);
-// => true
-console.log(r);
-console.log("me");
- 
-object === other;
-// => false
+import _ from "lodash";
+
+const obj1 = {"a": 1, "b": 2};
+const obj2 = {"b": 2, "a": 1};
+
+console.log(_.isEqual(obj1, obj2)); // true
