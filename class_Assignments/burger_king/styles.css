@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container {
+  display: flex;
+  
+  flex-direction: row;
+  
+}
+.burger-img{
+    width:100%;
+    height: 100%;
+}
+.iteam1{
+background-color: blue;
+flex: 6;
+}
+.iteam2{
+    background-color: rgb(250, 252, 249);
+    flex :3;
+    
+   font-size: medium;
+   padding: 0px 20px;   
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.Burger-king{
+    color: rgb(105, 95, 95);
+    text-align: center;
+    flex:40%;
+    align-content: center;
+    margin-right: 10%;
+}
+.burger-txt{
+    font-size: 30px;
+}
+.veg{
+    flex:30%;
+    padding: 10% 5% 0 0;
+}
+.veg-txt{
+    background-color: green;
+    border-radius:10px;
+    font-size: 15px;
+    padding: 2%;  
+}
+.non-veg{
+    flex:30%;
+    padding-top: 10%;
+}
+.non-veg-txt{
+    background-color: rgb(0, 153, 255);
+    border-radius:8px;
+    font-size: 15px;
+    padding: 2%;
+}
+.middle{
+    color: red;
+    font-size: 70px;
+}
+.bottom{
+    display: flex; 
+    padding-top: 100px;
+    font-size: x-large;  
+    align-content: flex-end;
+}
+.burger{
+    flex:1;  
+}
+.watch{
+    flex:1;
+}
+.star{
+    flex: 1;
+}
+.iteam3{
+    background-color: rgb(190, 108, 149);
+    flex: 1;
+    text-align: center;
+    font-size: xx-large;
+   padding: 300px 10px 0 10px;
+}

@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .flx-header {
+    padding: 2rem;
+    background-color: #2a06cc;
+  }
+  
+  .flex-main-container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .flx-nav,
+  .flx-aside {
+    background-color: #cc06ab;
+  }
+  
+  .flx-article-section {
+    background-color: #45cc06;
+    padding: 2rem;
+    flex-basis: 100%;
+  }
+  
+  .flx-footer {
+    padding: 1rem;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .flex-main-container {
+      flex-direction: column;
+    }
+  }
