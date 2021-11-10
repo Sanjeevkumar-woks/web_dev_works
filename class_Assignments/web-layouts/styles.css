@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-cont{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: powderblue;
+    text-align: center;
+}
+.head-title{
+    display: flex;
+    background-color:rgb(54, 48, 48) ;
+    padding: 15px;
+    align-items: center;
+    justify-items: center;
+   
+  
+}
+.html{
+    color: white;
+    flex: 1;
+    text-decoration: none;
+}
+.home{
+    color: white;
+    flex: 1;
+    text-decoration: none;
+   
+}
+.css{
+    color: white;
+    flex: 1;
+    text-decoration: none;
+}
+.js{
+    color: white;
+    flex: 1;
+    text-decoration: none;
+}
+.bootstrap{
+    color: white;
+    flex: 1;
+    text-decoration: none;
+}
+.mid-cont{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.nav{
+    background-color: rgb(235, 223, 235);
+    flex: 1;
+    color: rgb(19, 19, 18);
+}
+.nav-cont{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-color: darkorange;
+    flex: 10;
+}
+.aside{
+    background-color: mediumblue;
+    flex: 1;
+}
+.foot{
+    background-color: palevioletred;
+}
