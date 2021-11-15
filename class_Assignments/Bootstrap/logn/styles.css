@@ -1,0 +1,17 @@
+.contains{
+    margin:20%;
+}
+label{
+    font-size: medium;
+    
+}
+.button{
+    margin-left: 35rem;
+}
+.button-reg{
+    margin-left: 30rem;
+    margin-top: 2rem;
+}
+.dropdown-toggle{
+    padding-left: 5rem;
+}

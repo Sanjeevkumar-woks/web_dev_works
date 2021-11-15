@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(182, 179, 179);
+}
+a{
+    color: #fff;
+}
+
+.title{
+    background-color: #243746;
+}
+.link{   
+    margin-left: 45%;
+    font-size: large;
+    font-weight: bold;
+}
+.right
+{
+    padding: 45%;
+    margin: 50px;
+    border-radius: 25px;
+}
+.search{
+    margin: 50px 15%;
+    padding: 5px 200px 5px 5px;
+    border-radius: 5px;
+}
+.element{
+    border-radius: 15px;
+    margin: 30px;
+}
+.bottom{
+    padding: 15% 30%;
+    border-radius: 15px;
+    margin: 20px;
+}
