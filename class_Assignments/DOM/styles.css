@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: khaki;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin-top: 50px;
+    color: limegreen;
+    font-family: cursive;
+}
+.container{
+    background-color: lightcoral;
+}
+.table-container{
+    background-color: mediumorchid;
+}
+.Display-table{
+    margin-left: 200px;
+    text-align: center;
+}
