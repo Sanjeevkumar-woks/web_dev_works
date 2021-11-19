@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightcoral;
+    text-align: center;
+}
+h1{
+    color: green;
+    margin-bottom: 0px;
+}
+p{
+    font-size: x-small;
+    margin: 0px;
+}
+
+.calculator-grid{
+background-color: lightgray;
+text-align: center;
+display: inline-block;
+padding: 10px;
+margin: 3% 35%;
+
+}
+.output{
+    background-color: rgb(136, 134, 134);
+    padding: 1rem;
+    font-size: large;
+}
+button{
+      cursor: pointer;
+      font-size: large;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: lightgray;
+   border-color: white;
+   border-width: 0.2px;
+}
+button:hover{
+    background-color: grey;
+}
+.span-two{
+    padding: 1.5rem 3.2rem;
+}
