@@ -24,7 +24,7 @@
             <tr>
                 <td>
                 <button id="clear" onclick = "form1.textview.value = ' ' ">C</button>
-                <button>←</button>
+                <button id="backspace" onclick="backspace()">←</button>
                 <button id="decimal"onclick="insert('.')" >.</button>
                 <button id="mul" onclick="insert('*')">x</button>
                 </td>
@@ -56,7 +56,7 @@
             <tr>
                 <td>
                 <button id="0" onclick="insert(0)">0</button>
-                <button id="00" onclick="insert(00)">00</button>
+                <button id="00" onclick="insert('00')">00</button>
                 <button id="equal"class="span-two" onclick="equal()">=</button>
                 </td>
             </tr>

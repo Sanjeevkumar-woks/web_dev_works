@@ -2,7 +2,7 @@ let container=document.getElementById("main");
 let div_container= document.createElement("div");
 div_container.innerHTML=`
 <h1 id="title">FILL <i class="far fa-smile-beam"></i> FORM</h1>
-<p id="description"> The task is to scale up HTML CSS BOOTSTRAP NAD DOM concepts</p>
+<p id="description"> The task is to scale up HTML CSS BOOTSTRAP AND DOM concepts</p>
         
 <form id="form" class="container p-5">
         <label>FirstName:</label>
