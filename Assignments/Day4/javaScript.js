@@ -12,14 +12,14 @@ xhr.onload = function () {
       
       //question2 answer:
 
-        //console.log(t[key].flag);
+        console.log(t[key].flag);
 
         //question 3 answer:
 
-       /* console.log(t[key].name);
+       console.log(t[key].name);
         console.log(t[key].region);
         console.log(t[key].subregion);
-        console.log(t[key].population);*/       
+        console.log(t[key].population);      
     }
   } 
   else {
