@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+   
+    <style>
+.main{
+    border:solid 5px black;
+   display: inline-block;
+   padding: 5px;
+}
+h1{
+    background-color: red;
+    text-align: center;
+}
+label,input{
+    margin: 10px;
+}
+.div-two{
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Yes! I want to subscribe to Mag-O-Zine</h1>
+        <div class="div-one">
+            <label for="first-name">Firt-Name:</label><input type="text">
+            <label for="last-name">Last-Name:</label><input type="text"><br>
+            <label for="address">Address:</label><textarea name="address" id="address" cols="50" rows="1"></textarea><br>
+            <label for="city">City:</label><input type="text">
+            <label for="state">State:</label><input type="text">
+            <label for="zip">Zip:</label><input type="text">
+        </div>
+
+        <div class="div-two">
+        <label for="subscribe">Subscribe for:</label>
+        <input type="checkbox" Checked="checked"><label for="1year">1 year($19.95)</label><input type="checkbox"><label for="2year">2 year($35.00)</label><br>
+        <label for="more options">Send me more information about:</label><br>
+        <input type="checkbox" Checked="checked"><label for="computer-zine">Computer-Zine</label><br>
+        <input type="checkbox"><label for="fishing-zine">Fishing-Zine</label><br>
+        <input type="checkbox" Checked="checked"><label for="cat-o-zine">Cat-O-Zine</label>
+        </div>
+    </div>
+</body>
+</html>
