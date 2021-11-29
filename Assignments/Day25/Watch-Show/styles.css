@@ -1,0 +1,47 @@
+
+#display{
+    margin: 0px 190px;
+    align-items: center;
+  
+}
+h2{
+    
+    margin-top: 50px;
+    margin-bottom: 1px;
+    margin-left: 200px;
+}
+.card-title, .card-text, .watch{
+    text-align: center;
+}
+.card-text{
+    font-size: small;
+}
+#card{
+  
+  width: 14rem;
+  height: 25rem;
+  border: solid 1px;
+  align-items: center;
+  margin: 5px 10px;
+  padding: 0px;
+  border-radius: 20px;
+}
+.card-img-top{
+    margin: 5px; 
+    height: 10rem;
+    width: 10rem; 
+}
+.cord-body{
+    align-items: center;
+    text-align: center; 
+}
+#like{
+    margin-top: 10px;
+    background-color: black;
+    padding: 0% 30.7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#like-btn{
+    padding: 0px 10px;
+}
