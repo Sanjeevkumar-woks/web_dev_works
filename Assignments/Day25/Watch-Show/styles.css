@@ -1,7 +1,8 @@
 
 #display{
-    margin: 0px 190px;
+   margin-left: 100px;
     align-items: center;
+    padding: 0px;
   
 }
 h2{
@@ -31,9 +32,15 @@ h2{
     height: 10rem;
     width: 10rem; 
 }
-.cord-body{
-    align-items: center;
-    text-align: center; 
+.cord-body{  
+    text-align: center;  
+    align-items: center;  
+}
+#watch{
+    text-align: center;
+    padding: 0px 10px;
+    margin-left: 30%;
+
 }
 #like{
     margin-top: 10px;
