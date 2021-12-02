@@ -1,15 +1,19 @@
-
+body{
+    background-color: papayawhip;
+}
 #display{
    margin-left: 100px;
     align-items: center;
     padding: 0px;
   
 }
+.alert{
+    margin: 10px 100px;
+}
 h2{
-    
-    margin-top: 50px;
-    margin-bottom: 1px;
-    margin-left: 200px;
+    margin: 10px 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
 }
 .card-title, .card-text, .watch{
     text-align: center;

@@ -1,5 +1,38 @@
 body{
     background-color: beige;
-    margin:1% 5%;
+  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#title{
+    background-color: blueviolet;
+    color: white;
+    margin: 0px ;
+}
+#spelling{
+    font-weight: bold;
+
+}
+
+h3{
+    margin: 30px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+#example{
+    color: gray;
+    font-size: small;
+}
+
+#word{
+    margin-left:  40%;
+}
+
+#result{
+    text-align: left;
+    margin-left: 10%;
 }

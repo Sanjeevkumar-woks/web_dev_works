@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<body onload="weather()">
+<body onload="weather('https://api.openweathermap.org/data/2.5/weather?q=belgaum&lang=en&units=metric&appid=78ea530bcb66434fe3d2276971510974')">
   <!-- Search-section -->
   <div class="search">
     <div class="input-group">
-      <input type="text"id="search-bar" class="form-control" placeholder="Enter City Name">
+      <input type="text" id="search-bar" class="form-control" placeholder="Enter City Name">
       <div class="input-group-append">
-        <button class="btn btn-sm btn-dark" onclick="city()">Search</button>
+        <button class="btn btn-sm btn-dark" id="search-btn" onclick="city()">Search</button>
       </div>
     </div>
   </div>
@@ -43,11 +43,15 @@
 
             <div class="container">
                 <div class="row">
+
+                  <!-- Main Temprature Display -->
                   <div class="col-sm">
                     <div class="temprature-head">
                         <p id="temp"></p>
                     </div>
                   </div>
+
+                  <!-- Cloud-indication -->
                   <div class="col-sm">
                     <div class="cloud-indicator">
                         <i class="fas fa-cloud-sun fa-6x"></i>
@@ -57,6 +61,8 @@
                 </div>
               </div>
         </div>
+
+        <!-- Low-High-indication -->
         <div class="low-high">
           <div class="container">
               <div class="row">
@@ -72,13 +78,11 @@
                           <p id="high"></p>
                       </div>
                     </div>
-                  
-               
               </div>
             </div>
       </div> 
 
-        
+        <!-- Sunrise Sunset -indication -->
             <div class="sunrise-sunset">
                 <div class="container">
                     <div class="row">
@@ -96,7 +100,9 @@
                   </div>
             </div>
     
-        <div class="humidity-uv-rainfall-wind">
+            <!-- humidity-pressure-rainfall-wind -->
+
+        <div class="humidity-pressure-rainfall-wind">
             <div class="container">
                 <div class="row">
                   <div class="col-sm  humid">
@@ -127,7 +133,7 @@
                 </div>
             </div>
         </div>
-
+        
     </div>
 </div>
     <!-- Script -->
